@@ -1,0 +1,379 @@
+{
+	"profile": {
+		"firstName": "Julien",
+		"lastName": "Gony",
+		"address": {
+			"street": "14 rue du Delta",
+			"city": "Paris",
+			"postalCode": "75009",
+			"country": "France"
+		},
+		"nationality": "French",
+		"phone":{
+			"number": "0625276139",
+			"extension": "+33"
+		},
+		"email": "julien.gony@gmail.com",
+		"dateOfBirth": "1982-02-21T00:00:00.000Z"
+	},
+	"title": "Software Engineer",
+	"summary": "Versatile polyglot developer who get the job done.",
+	"objective": "Seeking a position to use my skills and versatility in a dynamic and collaborative team in an innovative company.
+	Looking forward to an exciting and challenging job that will combine professional growth and learning opportunities.",
+	"languages": [ {
+			"language": "French",
+			"Proficiency": "Native"
+		},
+		{
+			"language": "English",
+			"Proficiency": "Fluent"
+		},
+		{
+			"language": "Spanish",
+			"Proficiency": "Elementary"
+		}
+	],
+	"skills": [ {
+			"skill": "C++",
+			"type": "programatic",
+			"details": "Several years on different projects on Windows and Linux"
+		},
+		{
+			"skill": "C#",
+			"type": "programatic",
+			"details": "Several years on different projects on Windows (.Net 3, 4, 4.5)"
+		},
+		{
+			"skill": "javascript",
+			"type": "programatic",
+			"details": "server side with nodeJS (no production), client side (old projects on IE exclusively, new projects on Chrome exclusively)"
+		},
+		{
+			"skill": "python",
+			"type": "programatic",
+			"details": "scripts for automation and for fun."
+		},
+		{
+			"skill": "F#",
+			"type": "programatic",
+			"details": "By curiosity. Some tutorials, and mainly theoritical knowledge."
+		},
+		{
+			"skill": "Java",
+			"type": "programatic",
+			"details": "Used at school."
+		},
+		{
+			"skill": "VBScript",
+			"type": "programatic",
+			"details": "Used for some automation scripts (only if there is no choice)"
+		},
+		{
+			"skill": "html",
+			"type": "programatic",
+			"details": "Old html version on IE (dhtml with element behaviors), html 5 used for internal projects"
+		},
+		{
+			"skill": "CSS",
+			"type": "programatic",
+			"details": "CSS 3, less"
+		},
+		{
+			"skill": "WPF",
+			"type": "programatic",
+			"details": "As user for some projects, components provider for other projects"
+		},
+		{
+			"skill": "QT",
+			"type": "programatic",
+			"details": "old version of QT with C++"
+		},
+		{
+			"skill": "WinForms",
+			"type": "programatic",
+			"details": "Used with old version of .Net (mainly POC, and internal projects)"
+		},
+		{
+			"skill": "COM",
+			"type": "programatic",
+			"details": "As a client and provider on .NET and C++"
+		},
+		{
+			"skill": "OpenGL",
+			"type": "programatic",
+			"details": "Used with C for school projects."
+		},
+		{
+			"skill": "Windows",
+			"type": "system",
+			"details": "COM, .NET, VS development"
+		},
+		{
+			"skill": "Linux",
+			"type": "system",
+			"details": "C++, nodeJS"
+		},
+		{
+			"skill": "SVN",
+			"type": "source control",
+			"details": "used the first 5 years"
+		},
+		{
+			"skill": "GIT",
+			"type": "source control",
+			"details": "using now"
+		},
+		{
+			"skill": "XP",
+			"type": "methods",
+		},
+		{
+			"skill": "Agile",
+			"type": "methods",
+		},
+		{
+			"skill": "Scrum",
+			"type": "methods",
+		},
+		{
+			"skill": "SQL",
+			"type": "DB",
+			"details": "Simple mySQL database."
+		},
+		{
+			"skill": "mongoDB",
+			"type": "DB",
+			"details": "Internal projects."
+		},
+		{
+			"skill": "Cruise Control",
+			"type": "CI",
+			"details": "Managing CC.net for several projects"
+		},
+		{
+			"skill": "Jenkins",
+			"type": "CI",
+			"details": "Managing Jenkins for several projects"
+		},
+		{
+			"skill": "Jira",
+			"type": "process",
+			"details": "jira for planning bugs, story, ..."
+		},
+		{
+			"skill": "VMWare",
+			"type": "process",
+			"details": "VMWare automation for CI"
+		},
+		{
+			"skill": "IIS 6/7",
+			"type": "server",
+			"details": "Use for ASP.Net server, WCF"
+		},
+		{
+			"skill": "ASP.NET",
+			"type": "server",
+		},
+		{
+			"skill": "nodeJS",
+			"type": "server",
+			"details": "mainly POC projects, and for fun"
+		},
+		{
+			"skill": "Doxygen",
+			"type": "documentation",
+			"details": "for all C++ documentation"
+		},
+		{
+			"skill": "Sandcastle",
+			"type": "documentation",
+			"details": "for C# documentation"
+		},
+		{
+			"skill": "Unit test",
+			"type": "test",
+			"details": "MS Test, NUnit"
+		},
+		{
+			"skill": "TDD",
+			"type": "test",
+			"details": "On .NET with MS Test, NUnit"
+		},
+		{
+			"skill": "BDD",
+			"type": "test",
+			"details": "On .NET with SpecFlow, or lettuce for Python"
+		},
+		{
+			"skill": "image processing",
+			"type": "other",
+			"details": "image processing in C/C++ on linux"
+		},
+		{
+			"skill": "Artificial intelligence",
+			"type": "other",
+			"details": "Neural networks, statistical learning, probabilistic, ..."
+		},
+	],
+	"experience": [ {
+			"company": "Thomson Reuters",
+			"title": "Software Engineer",
+			"location": "Puteaux",
+			"period": {
+				"start": "2008-08-01T00:00:00.000Z",
+				"end": "Now"
+			},
+			"projects": [ {
+				"name": "Calculators Framework",
+				"description": "Providing a framework for realtime data retrieval, calculation and display of financial data.",
+				"technologies": ["C++", "javascript", "VBscript", "COM", ".NET", "html", "css"]
+				},
+				{
+					"name": "Eikon Desktop SDK",
+					"description": "Providing Data API for .Net. Providing WPF User Controls cutomisation. Providing WPF intelligent User Controls. Developing C++/C# service for accessing the data",
+					"technologies": [".Net", "C++ CLI", "WPF", "COM"]
+				},
+				{
+					"name": "Scripting API",
+					"description": "Providing scripting API for python.",
+					"technologies": ["nodeJS", "javascript", "python"]
+				}
+			]
+		},
+		{
+			"company": "ENSEA - CNRS",
+			"title": "Software Engineer",
+			"location": "Cergy-Pontoise",
+			"period": {
+				"start": "2007-08-01T00:00:00.000Z",
+				"end": "2008-08-01T00:00:00.000Z"
+			},
+			"projects": [ {
+				"name": "EROS 3D",
+				"description": "3D models retrieval improvements.",
+				"technologies": ["C++", "QT", "Linux", "VRML"]
+				},
+			]
+		},
+		{
+			"company": "LIP6",
+			"title": "Software Engineer",
+			"location": "Paris",
+			"period": {
+				"start": "2007-02-01T00:00:00.000Z",
+				"end": "2007-08-01T00:00:00.000Z"
+			},
+			"projects": [ {
+				"name": "Image and text retrieval",
+				"description": "Study and integration of text in the existing image retrieval software.",
+				"technologies": ["C++", "QT", "Linux", "python", "mySQL", "text processing", "AI"]
+				},
+				{
+				"name": "Image identification",
+				"description": "Study and implementaion of an image identification system.",
+				"technologies": ["C++", "QT", "Linux", "image processing", "AI"]
+				}
+			]
+		},
+		{
+			"company": "ENSEA - CNRS",
+			"title": "Software Engineer",
+			"location": "Cergy-Pontoise",
+			"period": {
+				"start": "2006-02-01T00:00:00.000Z",
+				"end": "2007-02-01T00:00:00.000Z"
+			},
+			"projects": [ {
+				"name": "EROS 3D",
+				"description": "Study and implementaion of 3D model retrieval system.",
+				"technologies": ["C++", "QT", "Linux", "3D math", "VRML", "AI"]
+				},
+				{
+				"name": "Snake",
+				"description": "Video segmentation with active contour",
+				"technologies": ["C++", "Linux", "Video processing"]
+				}
+			]
+		},
+		{
+			"company": "ENSEA - CNRS",
+			"title": "Software Engineer (trainee)",
+			"location": "Cergy-Pontoise",
+			"period": {
+				"start": "2005-04-01T00:00:00.000Z",
+				"end": "2005-09-01T00:00:00.000Z"
+			},
+			"projects": [ {
+				"name": "FReBIR",
+				"description": "Study and implementation of an interactive image retrieval system",
+				"technologies": ["C", "C++", "QT", "Linux", "image processing", "AI"]
+				},
+			]
+		},
+	],
+	"education": [ {
+			"school": "Université de Cergy-Pontoise",
+			"period": {
+				"start": "2000-08-01T00:00:00.000Z",
+				"end": "2002-08-01T00:00:00.000Z"
+			},
+			"degree": "DEUG",
+			"study": "Math and computer science",
+			"description": ""
+		},
+		{
+			"school": "Université de Cergy-Pontoise",
+			"period": {
+				"start": "2002-08-01T00:00:00.000Z",
+				"end": "2003-08-01T00:00:00.000Z"
+			},
+			"degree": "Licence",
+			"study": "Computer science",
+			"description": ""
+		},
+		{
+			"school": "Université de Cergy-Pontoise",
+			"period": {
+				"start": "2003-08-01T00:00:00.000Z",
+				"end": "2004-08-01T00:00:00.000Z"
+			},
+			"degree": "Maitrise",
+			"study": "Computer science",
+			"description": ""
+		},
+		{
+			"school": "Université Pierre et Marie Curie (Paris VI)",
+			"period": {
+				"start": "2004-08-01T00:00:00.000Z",
+				"end": "2005-08-01T00:00:00.000Z"
+			},
+			"degree": "Master",
+			"study": "Computer science",
+			"description": "specialiality: Artificial Intelligence and Decision on Multimedia, image and Sound."
+		}
+	],
+	"interests": [
+		"video games",
+		"movies",
+		"TV series",
+		"music",
+		"new technologies",
+		"travels"
+	],
+	"sports": [
+		"running",
+		"mountain biking",
+		"roller skating",
+		"swimmming",
+		"basketball",
+		"snowboarding",
+		"golf",
+		"tennis",
+		"fitness"
+	],
+	"links": [ {
+			"name": "linkedin",
+			"url": "https://fr.linkedin.com/in/juliengony"
+		}
+	]
+}

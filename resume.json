@@ -18,204 +18,181 @@
 	},
 	"title": "Software Engineer",
 	"summary": "Versatile polyglot developer who get the job done.",
-	"objective": "Seeking a position to use my skills and versatility in a dynamic and collaborative team in an innovative company.
-	Looking forward to an exciting and challenging job that will combine professional growth and learning opportunities.",
-	"languages": [ {
-			"language": "French",
-			"Proficiency": "Native"
+	"objective": "Seeking a position to use my skills and versatility in a dynamic and collaborative team in an innovative company. Looking forward to an exciting and challenging job that will combine professional growth and learning opportunities.",
+	"languages": {
+		"French": "Native",
+		"English": "Fluent",
+		"Spanish": "Elementary"
+	},
+	"skills": {
+		"programatic": [
+				{
+					"skill": "C++",
+					"details": "Several years on different projects on Windows and Linux"
+				},
+				{
+					"skill": "C#",
+					"details": "Several years on different projects on Windows (.Net 3, 4, 4.5)"
+				},
+				{
+					"skill": "javascript",
+					"details": "server side with nodeJS (no production), client side (old projects on IE exclusively, new projects on Chrome exclusively)"
+				},
+				{
+					"skill": "python",
+					"details": "scripts for automation and for fun."
+				},
+				{
+					"skill": "F#",
+					"details": "By curiosity. Some tutorials, and mainly theoritical knowledge."
+				},
+				{
+					"skill": "Java",
+					"details": "Used at school."
+				},
+				{
+					"skill": "VBScript",
+					"details": "Used for some automation scripts (only if there is no choice)"
+				},
+				{
+					"skill": "html",
+					"details": "Old html version on IE (dhtml with element behaviors), html 5 used for internal projects"
+				},
+				{
+					"skill": "CSS",
+					"details": "CSS 3, less"
+				},
+				{
+					"skill": "WPF",
+					"details": "As user for some projects, components provider for other projects"
+				},
+				{
+					"skill": "QT",
+					"details": "old version of QT with C++"
+				},
+				{
+					"skill": "WinForms",
+					"details": "Used with old version of .Net (mainly POC, and internal projects)"
+				},
+				{
+					"skill": "COM",
+					"details": "As a client and provider on .NET and C++"
+				},
+				{
+					"skill": "OpenGL",
+					"details": "Used with C for school projects."
+				}
+			],
+			"system": [
+				{
+					"skill": "Windows",
+					"details": "COM, .NET, VS development"
+				},
+				{
+					"skill": "Linux",
+					"details": "C++, nodeJS"
+				}
+			],
+			"source control":[
+				{
+					"skill": "SVN",
+					"details": "used the first 5 years"
+				},
+				{
+					"skill": "GIT",
+					"details": "using now"
+				}
+			],
+			"methods":[
+				{
+					"skill": "XP"
+				},
+				{
+					"skill": "Agile"
+				},
+				{
+					"skill": "Scrum"
+				}
+			],
+			"DB":[
+				{
+					"skill": "SQL",
+					"details": "Simple mySQL database."
+				},
+				{
+					"skill": "mongoDB",
+					"details": "Internal projects."
+				}
+			],
+			"CI":[
+				{
+					"skill": "Cruise Control",
+					"details": "Managing CC.net for several projects"
+				},
+				{
+					"skill": "Jenkins",
+					"details": "Managing Jenkins for several projects"
+				}
+			],
+			"tools": [
+				{
+					"skill": "Jira",
+					"details": "jira for planning bugs, story, ..."
+				},
+				{
+					"skill": "VMWare",
+					"details": "VMWare automation for CI"
+				}
+			],
+			"server":[
+				{
+					"skill": "IIS 6/7",
+					"details": "Use for ASP.Net server, WCF"
+				},
+				{
+					"skill": "ASP.NET"
+				},
+				{
+					"skill": "nodeJS",
+					"details": "mainly POC projects, and for fun"
+				}
+			],
+			"documentation":[
+				{
+					"skill": "Doxygen",
+					"details": "for all C++ documentation"
+				},
+				{
+					"skill": "Sandcastle",
+					"details": "for C# documentation"
+				}
+			],
+			"test":[
+				{
+					"skill": "Unit test",
+					"details": "MS Test, NUnit"
+				},
+				{
+					"skill": "TDD",
+					"details": "On .NET with MS Test, NUnit"
+				},
+				{
+					"skill": "BDD",
+					"details": "On .NET with SpecFlow, or lettuce for Python"
+				}
+			],
+			"other":[
+				{
+					"skill": "image processing",
+					"details": "image processing in C/C++ on linux"
+				},
+				{
+					"skill": "Artificial intelligence",
+					"details": "Neural networks, statistical learning, probabilistic, ..."
+				}
+			]
 		},
-		{
-			"language": "English",
-			"Proficiency": "Fluent"
-		},
-		{
-			"language": "Spanish",
-			"Proficiency": "Elementary"
-		}
-	],
-	"skills": [ {
-			"skill": "C++",
-			"type": "programatic",
-			"details": "Several years on different projects on Windows and Linux"
-		},
-		{
-			"skill": "C#",
-			"type": "programatic",
-			"details": "Several years on different projects on Windows (.Net 3, 4, 4.5)"
-		},
-		{
-			"skill": "javascript",
-			"type": "programatic",
-			"details": "server side with nodeJS (no production), client side (old projects on IE exclusively, new projects on Chrome exclusively)"
-		},
-		{
-			"skill": "python",
-			"type": "programatic",
-			"details": "scripts for automation and for fun."
-		},
-		{
-			"skill": "F#",
-			"type": "programatic",
-			"details": "By curiosity. Some tutorials, and mainly theoritical knowledge."
-		},
-		{
-			"skill": "Java",
-			"type": "programatic",
-			"details": "Used at school."
-		},
-		{
-			"skill": "VBScript",
-			"type": "programatic",
-			"details": "Used for some automation scripts (only if there is no choice)"
-		},
-		{
-			"skill": "html",
-			"type": "programatic",
-			"details": "Old html version on IE (dhtml with element behaviors), html 5 used for internal projects"
-		},
-		{
-			"skill": "CSS",
-			"type": "programatic",
-			"details": "CSS 3, less"
-		},
-		{
-			"skill": "WPF",
-			"type": "programatic",
-			"details": "As user for some projects, components provider for other projects"
-		},
-		{
-			"skill": "QT",
-			"type": "programatic",
-			"details": "old version of QT with C++"
-		},
-		{
-			"skill": "WinForms",
-			"type": "programatic",
-			"details": "Used with old version of .Net (mainly POC, and internal projects)"
-		},
-		{
-			"skill": "COM",
-			"type": "programatic",
-			"details": "As a client and provider on .NET and C++"
-		},
-		{
-			"skill": "OpenGL",
-			"type": "programatic",
-			"details": "Used with C for school projects."
-		},
-		{
-			"skill": "Windows",
-			"type": "system",
-			"details": "COM, .NET, VS development"
-		},
-		{
-			"skill": "Linux",
-			"type": "system",
-			"details": "C++, nodeJS"
-		},
-		{
-			"skill": "SVN",
-			"type": "source control",
-			"details": "used the first 5 years"
-		},
-		{
-			"skill": "GIT",
-			"type": "source control",
-			"details": "using now"
-		},
-		{
-			"skill": "XP",
-			"type": "methods",
-		},
-		{
-			"skill": "Agile",
-			"type": "methods",
-		},
-		{
-			"skill": "Scrum",
-			"type": "methods",
-		},
-		{
-			"skill": "SQL",
-			"type": "DB",
-			"details": "Simple mySQL database."
-		},
-		{
-			"skill": "mongoDB",
-			"type": "DB",
-			"details": "Internal projects."
-		},
-		{
-			"skill": "Cruise Control",
-			"type": "CI",
-			"details": "Managing CC.net for several projects"
-		},
-		{
-			"skill": "Jenkins",
-			"type": "CI",
-			"details": "Managing Jenkins for several projects"
-		},
-		{
-			"skill": "Jira",
-			"type": "process",
-			"details": "jira for planning bugs, story, ..."
-		},
-		{
-			"skill": "VMWare",
-			"type": "process",
-			"details": "VMWare automation for CI"
-		},
-		{
-			"skill": "IIS 6/7",
-			"type": "server",
-			"details": "Use for ASP.Net server, WCF"
-		},
-		{
-			"skill": "ASP.NET",
-			"type": "server",
-		},
-		{
-			"skill": "nodeJS",
-			"type": "server",
-			"details": "mainly POC projects, and for fun"
-		},
-		{
-			"skill": "Doxygen",
-			"type": "documentation",
-			"details": "for all C++ documentation"
-		},
-		{
-			"skill": "Sandcastle",
-			"type": "documentation",
-			"details": "for C# documentation"
-		},
-		{
-			"skill": "Unit test",
-			"type": "test",
-			"details": "MS Test, NUnit"
-		},
-		{
-			"skill": "TDD",
-			"type": "test",
-			"details": "On .NET with MS Test, NUnit"
-		},
-		{
-			"skill": "BDD",
-			"type": "test",
-			"details": "On .NET with SpecFlow, or lettuce for Python"
-		},
-		{
-			"skill": "image processing",
-			"type": "other",
-			"details": "image processing in C/C++ on linux"
-		},
-		{
-			"skill": "Artificial intelligence",
-			"type": "other",
-			"details": "Neural networks, statistical learning, probabilistic, ..."
-		},
-	],
-	"experience": [ {
+	"experiences": [ {
 			"company": "Thomson Reuters",
 			"title": "Software Engineer",
 			"location": "Puteaux",
@@ -238,10 +215,11 @@
 					"description": "Providing scripting API for python.",
 					"technologies": ["nodeJS", "javascript", "python"]
 				}
-			]
+			],
+			"link": "http://financial.thomsonreuters.com/en/products/tools-applications/trading-investment-tools/eikon-trading-software.html"
 		},
 		{
-			"company": "ENSEA - CNRS",
+			"company": "ETIS - CNRS",
 			"title": "Software Engineer",
 			"location": "Cergy-Pontoise",
 			"period": {
@@ -252,8 +230,9 @@
 				"name": "EROS 3D",
 				"description": "3D models retrieval improvements.",
 				"technologies": ["C++", "QT", "Linux", "VRML"]
-				},
-			]
+				}
+			],
+			"link": "http://www.ensea.fr/fr/page/etis"
 		},
 		{
 			"company": "LIP6",
@@ -273,10 +252,11 @@
 				"description": "Study and implementaion of an image identification system.",
 				"technologies": ["C++", "QT", "Linux", "image processing", "AI"]
 				}
-			]
+			],
+			"link": "http://www.lip6.fr/"
 		},
 		{
-			"company": "ENSEA - CNRS",
+			"company": "ETIS - CNRS",
 			"title": "Software Engineer",
 			"location": "Cergy-Pontoise",
 			"period": {
@@ -293,10 +273,11 @@
 				"description": "Video segmentation with active contour",
 				"technologies": ["C++", "Linux", "Video processing"]
 				}
-			]
+			],
+			"link": "http://www.ensea.fr/fr/page/etis"
 		},
 		{
-			"company": "ENSEA - CNRS",
+			"company": "ETIS - CNRS",
 			"title": "Software Engineer (trainee)",
 			"location": "Cergy-Pontoise",
 			"period": {
@@ -307,9 +288,10 @@
 				"name": "FReBIR",
 				"description": "Study and implementation of an interactive image retrieval system",
 				"technologies": ["C", "C++", "QT", "Linux", "image processing", "AI"]
-				},
-			]
-		},
+				}
+			],
+			"link": "http://www.ensea.fr/fr/page/etis"
+		}
 	],
 	"education": [ {
 			"school": "Université de Cergy-Pontoise",
@@ -318,8 +300,7 @@
 				"end": "2002-08-01T00:00:00.000Z"
 			},
 			"degree": "DEUG",
-			"study": "Math and computer science",
-			"description": ""
+			"study": "Math and computer science"
 		},
 		{
 			"school": "Université de Cergy-Pontoise",
@@ -328,8 +309,7 @@
 				"end": "2003-08-01T00:00:00.000Z"
 			},
 			"degree": "Licence",
-			"study": "Computer science",
-			"description": ""
+			"study": "Computer science"
 		},
 		{
 			"school": "Université de Cergy-Pontoise",
@@ -338,8 +318,7 @@
 				"end": "2004-08-01T00:00:00.000Z"
 			},
 			"degree": "Maitrise",
-			"study": "Computer science",
-			"description": ""
+			"study": "Computer science"
 		},
 		{
 			"school": "Université Pierre et Marie Curie (Paris VI)",
@@ -352,28 +331,16 @@
 			"description": "specialiality: Artificial Intelligence and Decision on Multimedia, image and Sound."
 		}
 	],
-	"interests": [
-		"video games",
-		"movies",
-		"TV series",
-		"music",
-		"new technologies",
-		"travels"
-	],
-	"sports": [
-		"running",
-		"mountain biking",
-		"roller skating",
-		"swimmming",
-		"basketball",
-		"snowboarding",
-		"golf",
-		"tennis",
-		"fitness"
-	],
-	"links": [ {
-			"name": "linkedin",
-			"url": "https://fr.linkedin.com/in/juliengony"
-		}
-	]
+	"interests": {
+		"Avid Gamer": "Video games, board games",
+		"Film enthusiast": "Movies, animations, documentaries, TV series.",
+		"Music lover": "Eclectic taste, learning guitare",
+		"Sportsman": "Running, Inline skating, mountain bike, basketball, snowboarding, tennis, golf",
+		"Technology addict": "Curious about new technologies, trying to stay up to date",
+		"Glob trotter": "New Zealand, India, Vietnam, Cambodia, Kenya, Tanzania, Peru, Bolivia, Nepal, Australia, Mexico, China, ..."
+	},
+	"links": {
+		"linkedin": "https://fr.linkedin.com/in/juliengony",
+		"github": "https://github.com/juliengony"
+	}
 }

@@ -298,11 +298,6 @@ footer:after {
 }
 /************************ print ************************/
 @media print {
-  footer,
-  aside,
-  #Links {
-    display: none;
-  }
   p,
   section,
   article,
@@ -320,9 +315,6 @@ footer:after {
     display: none;
   }
   aside::after {
-    display: none;
-  }
-  aside a {
     display: none;
   }
   details[open] a {
